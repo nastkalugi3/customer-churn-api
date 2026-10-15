@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+.DS_Store
+.env
+# Trained artifacts are reproducible with `python train.py`
+models/
+# Full dataset is downloaded with scripts/download_data.sh (licence unknown, not redistributed)
+data/churn.csv
+catboost_info/
+.claude/
